@@ -1,8 +1,8 @@
 #!/bin/bash
-# QX-01: Run full training pipeline
+# Run full training pipeline
 # Usage: bash scripts/run_training.sh
 
-echo "=== QX-01 Training Pipeline ==="
+echo "=== Training Pipeline ==="
 echo "Step 1: Data pipeline"
 python src/data_loader.py
 python src/features.py
