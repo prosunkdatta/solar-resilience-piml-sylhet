@@ -1,5 +1,5 @@
 # ============================================================
-# QX-01: PIML Solar Microgrid Resilience — Sylhet
+# PIML Solar Microgrid Resilience — Sylhet
 # requirements.txt — pinned package versions
 # Python 3.10+
 # Last updated: June 2026
