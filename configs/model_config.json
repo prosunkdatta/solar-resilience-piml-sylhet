@@ -1,5 +1,5 @@
 {
-  "_comment": "QX-01 Model Architecture Configuration",
+  "_comment": "Model Architecture Configuration",
   "lstm_baseline": {
     "input_size": 11,
     "hidden_size": 64,
