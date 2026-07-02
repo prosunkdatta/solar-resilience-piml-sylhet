@@ -1,9 +1,8 @@
 """
-QX-01: Physics-Informed ML for Solar Microgrid Resilience — Sylhet
+Physics-Informed ML for Solar Microgrid Resilience — Sylhet
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Module: features.py
 Author: Prosun Datta
-Organisation: QYSICA
 Contact: prosunkdatta@gmail.com
 
 Description:
