@@ -1,5 +1,5 @@
 {
-  "_comment": "QX-01 Microgrid Resilience Simulation Configuration — UHC Sylhet",
+  "_comment": "Microgrid Resilience Simulation Configuration — UHC Sylhet",
   "microgrid": {
     "pv_capacity_kw": 30.0,
     "battery_capacity_kwh": 120.0,
