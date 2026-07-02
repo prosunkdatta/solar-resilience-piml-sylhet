@@ -7,7 +7,7 @@ Contact: prosunkdatta@gmail.com
 
 Description:
     The three physics-informed penalty terms and the combined
-    PIML loss function for QX-01.
+    PIML loss function for the research
 
     The complete loss function is:
         L_total = L_MSE + λ₁·L_max + λ₂·L_night + λ₃·L_monsoon
