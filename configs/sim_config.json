@@ -1,0 +1,40 @@
+{
+  "_comment": "QX-01 Microgrid Resilience Simulation Configuration — UHC Sylhet",
+  "microgrid": {
+    "pv_capacity_kw": 30.0,
+    "battery_capacity_kwh": 120.0,
+    "battery_soc_min": 0.20,
+    "battery_soc_max": 0.95,
+    "battery_initial_soc": 0.80,
+    "battery_charge_efficiency": 0.95,
+    "battery_discharge_efficiency": 0.95,
+    "inverter_efficiency": 0.90
+  },
+  "uhc_load": {
+    "daily_avg_kwh": 80.0,
+    "peak_demand_kw": 21.0,
+    "tiers": {
+      "tier_1_critical": {
+        "description": "ICU, ventilators, surgical theatre, oxygen systems",
+        "fraction_of_total": 0.35,
+        "curtailable": false
+      },
+      "tier_2_essential": {
+        "description": "Ward lighting, pharmacy refrigeration, diagnostic equipment",
+        "fraction_of_total": 0.40,
+        "curtailable": false
+      },
+      "tier_3_non_essential": {
+        "description": "Administrative, fans, non-critical lighting",
+        "fraction_of_total": 0.25,
+        "curtailable": true
+      }
+    }
+  },
+  "simulation": {
+    "run_A_label": "LSTM Forecast (baseline)",
+    "run_B_label": "PIML Forecast (proposed)",
+    "timestep_hours": 1,
+    "monsoon_months": [6, 7, 8, 9]
+  }
+}

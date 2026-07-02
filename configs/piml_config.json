@@ -1,0 +1,26 @@
+{
+  "_comment": "QX-01 PIML Loss Function Configuration — lambda values to be tuned via grid search",
+  "loss_weights": {
+    "lambda_1_max": 0.1,
+    "lambda_2_night": 0.5,
+    "lambda_3_monsoon": 0.3,
+    "_note": "Starting values. Final values determined by grid search in notebook 06."
+  },
+  "grid_search": {
+    "lambda_1_candidates": [0.05, 0.10, 0.20],
+    "lambda_2_candidates": [0.30, 0.50, 1.00],
+    "lambda_3_candidates": [0.10, 0.30, 0.50],
+    "selection_metric": "monsoon_RMSE"
+  },
+  "monsoon_loss": {
+    "precipitation_threshold_mm": 5.0,
+    "rain_cooling_boost": 0.01,
+    "_note": "rain_cooling_boost = +1% efficiency during heavy rainfall (conservative estimate of 0.5-1.5% range from literature)"
+  },
+  "ablation_variants": {
+    "variant_1": {"lambda_1": 0.0, "lambda_2": 0.0, "lambda_3": 0.0, "label": "MSE only (baseline)"},
+    "variant_2": {"lambda_1": 0.1, "lambda_2": 0.0, "lambda_3": 0.0, "label": "+ L_max"},
+    "variant_3": {"lambda_1": 0.1, "lambda_2": 0.5, "lambda_3": 0.0, "label": "+ L_max + L_night"},
+    "variant_4": {"lambda_1": 0.1, "lambda_2": 0.5, "lambda_3": 0.3, "label": "Full PIML (all 3 terms)"}
+  }
+}

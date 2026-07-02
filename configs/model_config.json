@@ -1,0 +1,43 @@
+{
+  "_comment": "QX-01 Model Architecture Configuration",
+  "lstm_baseline": {
+    "input_size": 11,
+    "hidden_size": 64,
+    "num_layers": 2,
+    "dropout": 0.2,
+    "output_size": 1,
+    "bidirectional": false
+  },
+  "gru_baseline": {
+    "input_size": 11,
+    "hidden_size": 64,
+    "num_layers": 2,
+    "dropout": 0.2,
+    "output_size": 1
+  },
+  "piml_lstm": {
+    "input_size": 11,
+    "hidden_size": 64,
+    "num_layers": 2,
+    "dropout": 0.2,
+    "output_size": 1
+  },
+  "training": {
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "batch_size": 64,
+    "max_epochs": 100,
+    "early_stopping_patience": 10,
+    "scheduler": "ReduceLROnPlateau",
+    "scheduler_factor": 0.5,
+    "scheduler_patience": 5
+  },
+  "pvlib": {
+    "panel_efficiency": 0.20,
+    "panel_area_m2": 5.0,
+    "temp_coefficient": -0.004,
+    "tilt_degrees": 23.0,
+    "surface_type": "monocrystalline_Si",
+    "T_ref": 25.0
+  }
+}

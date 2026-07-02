@@ -1,0 +1,43 @@
+{
+  "_comment": "QX-01 Data Configuration — Sylhet NASA POWER Pipeline",
+  "nasa_power": {
+    "latitude": 24.89,
+    "longitude": 91.87,
+    "location_name": "Sylhet, Bangladesh",
+    "start_year": 2005,
+    "end_year": 2024,
+    "temporal_resolution": "hourly",
+    "parameters": [
+      "ALLSKY_SFC_SW_DWN",
+      "CLRSKY_SFC_SW_DWN",
+      "T2M",
+      "RH2M",
+      "PRECTOTCORR",
+      "WS10M"
+    ]
+  },
+  "seasons": {
+    "dry":           [11, 12, 1, 2],
+    "pre_monsoon":   [3, 4, 5],
+    "monsoon":       [6, 7, 8, 9],
+    "post_monsoon":  [10]
+  },
+  "paths": {
+    "raw_data":       "data/raw/sylhet_nasa_power.csv",
+    "processed_data": "data/processed/sylhet_features.csv",
+    "X_train":        "data/processed/X_train.npy",
+    "X_val":          "data/processed/X_val.npy",
+    "X_test":         "data/processed/X_test.npy",
+    "y_train":        "data/processed/y_train.npy",
+    "y_val":          "data/processed/y_val.npy",
+    "y_test":         "data/processed/y_test.npy"
+  },
+  "split_ratios": {
+    "train": 0.70,
+    "val":   0.15,
+    "test":  0.15,
+    "method": "chronological"
+  },
+  "sequence_length": 24,
+  "forecast_horizon": 1
+}
