@@ -1,4 +1,4 @@
-# QX-01: Physics-Informed Machine Learning for Solar Microgrid Resilience of Healthcare Facilities
+# Physics-Informed Machine Learning for Solar Microgrid Resilience of Healthcare Facilities
 
 **A Stochastic Study of the Sylhet Monsoon Corridor, Bangladesh**
 
@@ -12,11 +12,11 @@
 ## Overview
 
 This repository contains the complete implementation, data pipeline, trained models,
-and reproducible results for the QX-01 research paper:
+and reproducible results for the research paper:
 
 > **Prosun Datta**, "Physics-Informed Machine Learning for Solar Microgrid Resilience
 > of Healthcare Facilities: A Stochastic Study of the Sylhet Monsoon Corridor,
-> Bangladesh." *Target: IEEE Transactions on Sustainable Energy / Energies (MDPI).*
+> Bangladesh."
 > arXiv preprint: [link to be added upon submission]
 
 ### Core Contribution
@@ -184,11 +184,11 @@ All figures will be saved to `figures/` and all metrics to `results/`.
 If you use this code or data in your research, please cite:
 
 ```bibtex
-@article{datta2027piml,
+@article{prosun2027piml,
   title   = {Physics-Informed Machine Learning for Solar Microgrid Resilience
              of Healthcare Facilities: A Stochastic Study of the Sylhet
              Monsoon Corridor, Bangladesh},
-  author  = {Datta, Prosun},
+  author  = {Prosun, Datta},
   journal = {IEEE Transactions on Sustainable Energy},
   year    = {2027},
   note    = {Under review. arXiv preprint available.}
@@ -206,9 +206,9 @@ All code, data, and models are released openly in the spirit of reproducible sci
 
 ## Contact
 
-**Prosun Datta** — Founder & CEO, QYSICA
+**Prosun Datta**
 prosunkdatta@gmail.com |
 [LinkedIn](https://linkedin.com/in/prosunkdatta) |
 [GitHub](https://github.com/prosunkdatta)
 
-*QYSICA — Physics-Informed Intelligence Systems Research*
+*Prosun Datta — Physics-Informed Intelligence Systems Research*
