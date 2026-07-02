@@ -1,9 +1,8 @@
 """
-QX-01: Physics-Informed ML for Solar Microgrid Resilience — Sylhet
+Physics-Informed ML for Solar Microgrid Resilience — Sylhet
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Script: download_nasa_power.py
 Author: Prosun Datta
-Organisation: QYSICA
 
 Description:
     Downloads 20 years of hourly weather data for Sylhet,
