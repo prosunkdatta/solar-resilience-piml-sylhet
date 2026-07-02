@@ -1,4 +1,4 @@
-# QX-01 Physics-Informed Machine Learning for Solar Microgrid Resilience of Healthcare Facilities
+# Physics-Informed Machine Learning for Solar Microgrid Resilience of Healthcare Facilities
 
 **A Stochastic Study of the Sylhet Monsoon Corridor, Bangladesh**
 
