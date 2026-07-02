@@ -1,5 +1,5 @@
 {
-  "_comment": "QX-01 PIML Loss Function Configuration — lambda values to be tuned via grid search",
+  "_comment": "PIML Loss Function Configuration — lambda values to be tuned via grid search",
   "loss_weights": {
     "lambda_1_max": 0.1,
     "lambda_2_night": 0.5,
